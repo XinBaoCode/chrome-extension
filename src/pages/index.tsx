@@ -7,7 +7,7 @@ export default function IndexPage() {
   return (
     <div className={styles.bg}>
       <Time className={styles.time}/>
-      <SearchEngine />
+      <SearchEngine className={styles.searchEngine}/>
     </div>
   );
 }
